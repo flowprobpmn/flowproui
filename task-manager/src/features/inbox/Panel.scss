@@ -1,0 +1,10 @@
+.c-panel {
+  &__select {
+    .select-box {
+      width: 100%;
+      .MuiInputBase-root {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.c-panel-form {
+  .MuiGrid-root {
+    margin-bottom: 20px;
+  }
+  .form-action-btn {
+    width: 102px;
+  }
+  .reject-btn {
+    background: #f31616;
+    &:hover {
+      background: #f31616;
+
+    }
+    &:active {
+      background: #f31616;
+
+    }
+  }
+}
