@@ -1,16 +1,17 @@
 import {
-  DefaultPage,
-} from '.';
+  Inbox,
+} from './';
 
 export default {
-  path: '/',
-  name: 'Home',
-  childRoutes: [
-    {
-      path: 'default-page',
-      name: 'Default page',
-      component: DefaultPage,
-      isIndex: true,
-    },
-  ],
+  path: '/tasks',
+  name: 'tasks',
+  component: Inbox
+  // childRoutes: [
+  //   {
+  //     path: 'default',
+  //     name: 'Inbox Page',
+  //     component: DefaultPage,
+  //     isIndex: true,
+  //   },
+  // ],
 };

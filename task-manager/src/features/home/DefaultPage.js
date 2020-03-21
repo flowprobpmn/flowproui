@@ -5,6 +5,8 @@ import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import * as actions from './redux/actions';
 import { Inbox } from '../inbox';
+import { DefaultPage as LoginPage } from '../login';
+
 
 export class DefaultPage extends Component {
   static propTypes = {
@@ -15,7 +17,7 @@ export class DefaultPage extends Component {
   render() {
     return (
       <div className="home-default-page">
-        <Inbox />
+        <LoginPage />
       </div>
     );
   }

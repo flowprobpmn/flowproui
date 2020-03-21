@@ -1,0 +1,25 @@
+
+  
+.c-panel__wrapper.selected {
+  background-color: $active_task_fill !important;
+}
+
+.MuiAppBar-colorPrimary {
+  background-color: $nav_fill !important;
+}
+
+.c-panel-detail__tabs .MuiTab-textColorPrimary.Mui-selected {
+  background-color: $active_tab_fill !important;
+}
+.c-panel-detail__tabs .MuiTabs-root {
+  background-color: $tab_fill !important;
+}
+.no-btn {
+  background-color: $btn_no !important;
+}
+.yes-btn {
+  background-color: $btn_yes !important;
+}
+.drawer-open-icon {
+  background-color: $drawer_pin_fill !important;
+}

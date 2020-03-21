@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import '../../styles/index.scss';
-
 /*
   This is the root component of your app. Here you define the overall layout
   and the container of the react router.

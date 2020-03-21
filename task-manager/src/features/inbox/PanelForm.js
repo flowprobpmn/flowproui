@@ -30,7 +30,7 @@ class PanelForm extends PureComponent {
             actions.map((action) => {
               return (
                 <div className="ml-3">
-                  <Button className={`form-action-btn ${action.style === 'reject' ? 'reject-btn' : ''}`} variant="contained" color="primary">
+                  <Button className={`form-action-btn ${action.style === 'reject' ? 'no-btn' : 'yes-btn'}`} variant="contained" color="primary">
                     {action.name}
                   </Button>
                 </div>
