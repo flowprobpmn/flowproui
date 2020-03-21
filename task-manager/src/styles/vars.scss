@@ -1,0 +1,21 @@
+
+
+@use "sass:map";
+
+$theme-colors: (
+  'nav_fill': '#03283A',
+  'active_task_fill': #03283A,
+  'tab_fill': #224759,
+  'active_tab_fill': #03283A,
+  'btn_yes': #0070e0,
+  'btn_no': #ea2121,
+  'drawer_pin_fill': #03283A,
+  );
+  
+  $nav_fill: #{map-get($theme-colors, "nav_fill")};
+  $active_task_fill: #{map-get($theme-colors, "active_task_fill")};
+  $tab_fill: #{map-get($theme-colors, "tab_fill")};
+  $active_tab_fill: #{map-get($theme-colors, "active_tab_fill")};
+  $btn_yes: #{map-get($theme-colors, "btn_yes")};
+  $btn_no: #{map-get($theme-colors, "btn_no")};
+  $drawer_pin_fill: #{map-get($theme-colors, "drawer_pin_fill")};
